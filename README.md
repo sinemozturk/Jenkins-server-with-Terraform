@@ -48,7 +48,7 @@ sudo systemctl status jenkins
 http://<<public-ip-of-your-ec2:8082>>
 ```
 
-![](./images/jenkinsport.PNG)
+![](./images/jenkins-running.PNG)
 
 - As you can see we successfully make the port change from 8080 to 8082 now we need to set up jenkins with initial administration password, go to related file with following;
 
