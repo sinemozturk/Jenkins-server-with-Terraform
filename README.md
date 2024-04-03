@@ -4,6 +4,8 @@
 
 - Security group will allow us to open SSH:22, TCP :8080 (For Tomcat which we will install manuelly), TCP:8082 for Jenkins 
 
+- We used userdata.sh file to install Jenkns, Java and Maven -> https://github.com/sinemozturk/Jenkins-server-with-Terraform/blob/main/userdata.sh
+
 
 # INTALL JENKINS, JAVA, MAVEN 
 
