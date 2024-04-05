@@ -9,6 +9,25 @@
 - We used userdata.sh file to install Jenkns, Java and Maven -> https://github.com/sinemozturk/Jenkins-server-with-Terraform/blob/main/userdata.sh
 
 
+# Terraform 
+
+- Simply download and modify the `main.tf`file on your choice.
+- You may neeed change the region, instane
+- You need to change the key-pair name it should be match with your AWS account.
+- Make sure you have `ACCESS KEY` and `SECRET KEY` is written somewhere on your computer if not you can go to console and create one.
+
+- Terraform Steps:
+    - First initilize of your terraform file with   `terraform init` cmd on your CLI
+    - You can provide your credentials via the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY, environment variables, representing your AWS Access Key and AWS Secret Key, respectively.
+      
+ ```bash
+export AWS_ACCESS_KEY_ID="anaccesskey"
+export AWS_SECRET_ACCESS_KEY="asecretkey"
+```
+  - See if everything is working correctly with  `terraform plan` command.
+  - If all is fine apply terraform with  `terraform apply -auto-approve` command. 
+
+
 # INTALL JENKINS, JAVA, MAVEN 
 
 - As we know Jenkins is using Port `8080 ` as default we will change to `8082`.
