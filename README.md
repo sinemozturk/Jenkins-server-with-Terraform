@@ -1,5 +1,7 @@
 # Create a Jenkins Server with Terraform
 
+- In this project we will use Terraform features to create Jenkins server and we will change the Jenkins server from default which is 8080 to custom (8082) with using user-data.sh script.
+  
 - We will create a jenkins server with Terraform and install Maven & Java 11
 
 - Security group will allow us to open SSH:22, TCP :8080 (For Tomcat which we will install manuelly), TCP:8082 for Jenkins 
